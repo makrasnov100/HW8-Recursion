@@ -25,15 +25,15 @@ int binary_search(const vector<T> &items, int first, int last, T target) {
 		//Find the center to test target on
 		int middle = (first + last) / 2;
 
-		if (target = items[middle])
+		if (target == items[middle])
 			// Base Case : Target found
 			return middle;
 		else if (target < items[middle])
 			// Target is in the first half of current test range
 			return binary_search(items, first, middle - 1, target);
 		else
-			// Target is in the first half of current test range
-			return binary_search(items, middle - 1, last, target);
+			// Target is in the second half of current test range
+			return binary_search(items, middle + 1, last, target);
 	}
 }
 
