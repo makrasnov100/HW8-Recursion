@@ -7,4 +7,4 @@ All exercises complete + Extra Credit
   - might have to retarget solution in VS
   
  ## EX8_4 Result
- ![](HW8-Recursion/EX8_4-MazeNavigation/Result.jpg)
+ ![](EX8_4-MazeNavigation/Result.jpg)
