@@ -75,7 +75,6 @@ bool PlaceQueen(int column) {
 			//If above two conditions passed can assign queens column to current row
 			RowPlacement[row] = column;
 
-
 			//Recursively call PlaceQueen to place a queen in the next column 
 			//Once every coloumn's PlaceQueen returns true the stack depletes
 			if (PlaceQueen(column + 1)) 
